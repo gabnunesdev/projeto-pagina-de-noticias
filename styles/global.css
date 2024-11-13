@@ -19,6 +19,14 @@
   --text-p: 400 14px/160% var(--font-family);
 }
 
+body {
+  background-color: var(--bg-color);
+}
+
+a {
+  text-decoration: none;
+}
+
 h1 {
   font: var(--h1);
 }
@@ -38,4 +46,3 @@ span {
 p {
   font: var(--text-p);
 }
-
