@@ -26,6 +26,11 @@ body {
   color: var(--text-color-primary);
 }
 
+.container {
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -33,6 +38,10 @@ a {
 
 a:hover {
   color: var(--brand-color-light);
+}
+
+img {
+  max-width: 100%;
 }
 
 h1,
@@ -49,12 +58,7 @@ h3 {
   font: var(--h3);
 }
 
-/* utility-first */
-
-.grid {
-  display: grid;
+main {
+  margin-top: 40px;
 }
 
-.grid-flow-col {
-grid-auto-flow: column;
-}
