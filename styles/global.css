@@ -62,3 +62,14 @@ main {
   margin-top: 40px;
 }
 
+.content-tag {
+  display: inline-block;
+  background-color: var(--brand-color-dark);
+  padding: 4px 8px;
+  text-transform: uppercase;
+  color: var(--text-color-primary);
+  font: 500 10px/1.2 var(--font-family);
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  box-shadow: 4px 0px 16px rgba(2, 6, 23, 0.25);
+}
