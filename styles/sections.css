@@ -14,10 +14,16 @@
       bottom: 0;
       padding: 24px;
       gap: 100px;
-      h2 {
+      h2,
+      h3 {
         margin-top: 8px;
       }
+      &:has(.text-lg) {
+        padding: 12px;
+      }
     }
+
+    
 
     &::before {
       content: "";
