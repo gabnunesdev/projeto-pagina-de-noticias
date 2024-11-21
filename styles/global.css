@@ -26,10 +26,6 @@ body {
   color: var(--text-color-primary);
 }
 
-.container {
-  max-width: 1280px;
-  margin-inline: auto;
-}
 
 a {
   text-decoration: none;
@@ -42,6 +38,12 @@ a:hover {
 
 img {
   max-width: 100%;
+}
+
+.container {
+  max-width: 1280px;
+  padding-inline: 32px;
+  margin-inline: auto;
 }
 
 h1,
